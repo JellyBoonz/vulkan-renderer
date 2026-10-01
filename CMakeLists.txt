@@ -8,8 +8,9 @@ find_package(nlohmann_json CONFIG REQUIRED
         PATHS
         /opt/homebrew/opt/nlohmann-json
         /usr/local/opt/nlohmann-json)
+find_package(OpenSSL REQUIRED)
 
 add_executable(vulkan_renderer main.cpp
         GLTFParser.cpp)
 
-target_link_libraries(vulkan_renderer PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(vulkan_renderer PRIVATE nlohmann_json::nlohmann_json OpenSSL::Crypto)
