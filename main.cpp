@@ -1,6 +1,9 @@
+#include <cstdint>
 #include <iostream>
 #include <string>
-#include <glfw/glfw3.h>
+
+#define GLFW_INCLUDE_VULKAN
+#include <GLFW/glfw3.h>
 
 #include "GLTFParser.h"
 
@@ -35,10 +38,52 @@ int main() {
         return 1;
     }
 
+    VkApplicationInfo applicationInfo{};
+    applicationInfo.sType = VK_STRUCTURE_TYPE_APPLICATION_INFO;
+    applicationInfo.pApplicationName = "Vulkan Renderer";
+    applicationInfo.applicationVersion = VK_MAKE_VERSION(1, 0, 0);
+    applicationInfo.pEngineName = "No Engine";
+    applicationInfo.engineVersion = VK_MAKE_VERSION(1, 0, 0);
+    applicationInfo.apiVersion = VK_API_VERSION_1_4;
+
+    std::uint32_t requiredExtensionCount = 0;
+    const char** requiredExtensions = glfwGetRequiredInstanceExtensions(&requiredExtensionCount);
+    if (requiredExtensions == nullptr) {
+        std::cerr << "GLFW could not determine the required Vulkan extensions.\n";
+        glfwDestroyWindow(window);
+        glfwTerminate();
+        return 1;
+    }
+
+    VkInstanceCreateInfo instanceCreateInfo{};
+    instanceCreateInfo.sType = VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
+    instanceCreateInfo.pApplicationInfo = &applicationInfo;
+    instanceCreateInfo.enabledExtensionCount = requiredExtensionCount;
+    instanceCreateInfo.ppEnabledExtensionNames = requiredExtensions;
+
+    VkInstance instance = VK_NULL_HANDLE;
+    if (vkCreateInstance(&instanceCreateInfo, nullptr, &instance) != VK_SUCCESS) {
+        std::cerr << "Could not create Vulkan instance.\n";
+        glfwDestroyWindow(window);
+        glfwTerminate();
+        return 1;
+    }
+
+    VkSurfaceKHR surface = VK_NULL_HANDLE;
+    if (glfwCreateWindowSurface(instance, window, nullptr, &surface) != VK_SUCCESS) {
+        std::cerr << "Could not create Vulkan window surface.\n";
+        vkDestroyInstance(instance, nullptr);
+        glfwDestroyWindow(window);
+        glfwTerminate();
+        return 1;
+    }
+
     while (!glfwWindowShouldClose(window)) {
         glfwPollEvents();
     }
 
+    vkDestroySurfaceKHR(instance, surface, nullptr);
+    vkDestroyInstance(instance, nullptr);
     glfwDestroyWindow(window);
     glfwTerminate();
 
