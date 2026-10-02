@@ -8,7 +8,7 @@
 #include "GLTFParser.h"
 
 int main() {
-    std::string gltfFilename;
+    std::string gltfFilename{};
 
     std::cout << "Enter the name or path of a glTF file: " << std::flush;
     if (!std::getline(std::cin, gltfFilename) || gltfFilename.empty()) {
@@ -29,9 +29,9 @@ int main() {
     // Vulkan will render here later
     glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 
-    int width = 800;
-    int height = 600;
-    GLFWwindow* window = glfwCreateWindow(width, height, "window", nullptr, nullptr);
+    int width{800};
+    int height{600};
+    GLFWwindow* window{glfwCreateWindow(width, height, "window", nullptr, nullptr)};
     if (window == nullptr) {
         std::cerr << "Could not create window.\n";
         glfwTerminate();
@@ -46,8 +46,8 @@ int main() {
     applicationInfo.engineVersion = VK_MAKE_VERSION(1, 0, 0);
     applicationInfo.apiVersion = VK_API_VERSION_1_4;
 
-    std::uint32_t requiredExtensionCount = 0;
-    const char** requiredExtensions = glfwGetRequiredInstanceExtensions(&requiredExtensionCount);
+    std::uint32_t requiredExtensionCount{0};
+    const char** requiredExtensions{glfwGetRequiredInstanceExtensions(&requiredExtensionCount)};
     if (requiredExtensions == nullptr) {
         std::cerr << "GLFW could not determine the required Vulkan extensions.\n";
         glfwDestroyWindow(window);
@@ -61,7 +61,7 @@ int main() {
     instanceCreateInfo.enabledExtensionCount = requiredExtensionCount;
     instanceCreateInfo.ppEnabledExtensionNames = requiredExtensions;
 
-    VkInstance instance = VK_NULL_HANDLE;
+    VkInstance instance{VK_NULL_HANDLE};
     if (vkCreateInstance(&instanceCreateInfo, nullptr, &instance) != VK_SUCCESS) {
         std::cerr << "Could not create Vulkan instance.\n";
         glfwDestroyWindow(window);
@@ -69,7 +69,7 @@ int main() {
         return 1;
     }
 
-    VkSurfaceKHR surface = VK_NULL_HANDLE;
+    VkSurfaceKHR surface{VK_NULL_HANDLE};
     if (glfwCreateWindowSurface(instance, window, nullptr, &surface) != VK_SUCCESS) {
         std::cerr << "Could not create Vulkan window surface.\n";
         vkDestroyInstance(instance, nullptr);
