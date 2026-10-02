@@ -1,0 +1,9 @@
+# CMake-generated build output
+/build/
+/cmake-build-*/
+
+# CLion / IntelliJ local project settings
+/.idea/
+
+# OS-generated metadata
+.DS_Store

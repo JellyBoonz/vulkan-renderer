@@ -1,3 +1,0 @@
-/Users/jaidenortiz/projects/vulkan-renderer/build/CMakeFiles/vulkan_renderer.dir
-/Users/jaidenortiz/projects/vulkan-renderer/build/CMakeFiles/edit_cache.dir
-/Users/jaidenortiz/projects/vulkan-renderer/build/CMakeFiles/rebuild_cache.dir
