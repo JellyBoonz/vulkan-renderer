@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/vulkan_renderer.dir/main.cpp.o CMakeFiles/vulkan_renderer.dir/GLTFParser.cpp.o -o vulkan_renderer  -Wl,-rpath,/opt/homebrew/lib /opt/homebrew/Cellar/openssl@3/3.6.0/lib/libcrypto.dylib /opt/homebrew/lib/libglfw.3.4.dylib
