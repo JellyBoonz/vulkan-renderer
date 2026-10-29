@@ -1,0 +1,574 @@
+[Vulkan Loader] INFO:           Vulkan Loader Version 1.4.328
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for explicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:             Found the following files:
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json (file version 1.2.1)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json (file version 1.2.0)
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for explicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:             Found the following files:
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json (file version 1.2.1)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json (file version 1.2.0)
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for explicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:             Found the following files:
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json (file version 1.2.1)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json (file version 1.2.0)
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for explicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:             Found the following files:
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json (file version 1.2.1)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json (file version 1.2.0)
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for explicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:             Found the following files:
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json (file version 1.2.1)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json (file version 1.2.0)
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for explicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:             Found the following files:
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json (file version 1.2.1)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json (file version 1.2.0)
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for explicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:             Found the following files:
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json (file version 1.2.1)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json (file version 1.2.0)
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for explicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:             Found the following files:
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json (file version 1.2.1)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json (file version 1.2.0)
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] DRIVER:         Searching for driver manifest files
+[Vulkan Loader] DRIVER:            In following locations:
+[Vulkan Loader] DRIVER:               /usr/local/share/vulkan/icd.d/MoltenVK_icd.json
+[Vulkan Loader] DRIVER:            Found the following files:
+[Vulkan Loader] DRIVER:               /usr/local/share/vulkan/icd.d/MoltenVK_icd.json
+[Vulkan Loader] DRIVER:         Found ICD manifest file /usr/local/share/vulkan/icd.d/MoltenVK_icd.json, version 1.0.0
+[Vulkan Loader] DEBUG | DRIVER: Searching for ICD drivers named ../../../lib/libMoltenVK.dylib
+[Vulkan Loader] DRIVER:         Searching for driver manifest files
+[Vulkan Loader] DRIVER:            In following locations:
+[Vulkan Loader] DRIVER:               /usr/local/share/vulkan/icd.d/MoltenVK_icd.json
+[Vulkan Loader] DRIVER:            Found the following files:
+[Vulkan Loader] DRIVER:               /usr/local/share/vulkan/icd.d/MoltenVK_icd.json
+[Vulkan Loader] DRIVER:         Found ICD manifest file /usr/local/share/vulkan/icd.d/MoltenVK_icd.json, version 1.0.0
+[Vulkan Loader] DEBUG | DRIVER: Searching for ICD drivers named ../../../lib/libMoltenVK.dylib
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] INFO:           No valid vk_loader_settings.json file found, no loader settings will be active
+[Vulkan Loader] INFO:           Portability enumeration bit was set, enumerating portability drivers.
+[Vulkan Loader] LAYER:          Searching for implicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/implicit_layer.d
+[Vulkan Loader] LAYER:             Found no files
+[Vulkan Loader] LAYER:          Searching for explicit layer manifest files
+[Vulkan Loader] LAYER:             In following locations:
+[Vulkan Loader] LAYER:                /usr/local/bin/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.config/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/xdg/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/lunarg/Dev/macos-sdk-build/Vulkan-Loader/build/install/etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /etc/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Users/jaidenortiz/.local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /usr/share/vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:                /Applications/Ghostty.app/Contents/Resources/ghostty/../vulkan/explicit_layer.d
+[Vulkan Loader] LAYER:             Found the following files:
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json
+[Vulkan Loader] LAYER:                /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_api_dump.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json (file version 1.2.1)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_screenshot.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[Vulkan Loader] INFO:           Found manifest file /usr/local/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json (file version 1.2.0)
+[Vulkan Loader] DRIVER:         Searching for driver manifest files
+[Vulkan Loader] DRIVER:            In following locations:
+[Vulkan Loader] DRIVER:               /usr/local/share/vulkan/icd.d/MoltenVK_icd.json
+[Vulkan Loader] DRIVER:            Found the following files:
+[Vulkan Loader] DRIVER:               /usr/local/share/vulkan/icd.d/MoltenVK_icd.json
+[Vulkan Loader] DRIVER:         Found ICD manifest file /usr/local/share/vulkan/icd.d/MoltenVK_icd.json, version 1.0.0
+[Vulkan Loader] DEBUG | DRIVER: Searching for ICD drivers named ../../../lib/libMoltenVK.dylib
+[Vulkan Loader] LAYER:          vkCreateInstance layer callstack setup to:
+[Vulkan Loader] LAYER:             <Application>
+[Vulkan Loader] LAYER:               ||
+[Vulkan Loader] LAYER:             <Loader>
+[Vulkan Loader] LAYER:               ||
+[Vulkan Loader] LAYER:             <Drivers>
+[Vulkan Loader] DRIVER:         vkCreateDevice layer callstack setup to:
+[Vulkan Loader] DRIVER:            <Application>
+[Vulkan Loader] DRIVER:              ||
+[Vulkan Loader] DRIVER:            <Loader>
+[Vulkan Loader] DRIVER:              ||
+[Vulkan Loader] DRIVER:            <Device>
+[Vulkan Loader] DRIVER:                Using "Apple M1 Pro" with driver: "/usr/local/lib/libMoltenVK.dylib"
+==========
+VULKANINFO
+==========
+
+Vulkan Instance Version: 1.4.328
+
+
+Instance Extensions: count = 18
+-------------------------------
+VK_EXT_debug_report                    : extension revision 10
+VK_EXT_debug_utils                     : extension revision 2
+VK_EXT_headless_surface                : extension revision 1
+VK_EXT_layer_settings                  : extension revision 2
+VK_EXT_metal_surface                   : extension revision 1
+VK_EXT_surface_maintenance1            : extension revision 1
+VK_EXT_swapchain_colorspace            : extension revision 5
+VK_KHR_device_group_creation           : extension revision 1
+VK_KHR_external_fence_capabilities     : extension revision 1
+VK_KHR_external_memory_capabilities    : extension revision 1
+VK_KHR_external_semaphore_capabilities : extension revision 1
+VK_KHR_get_physical_device_properties2 : extension revision 2
+VK_KHR_get_surface_capabilities2       : extension revision 1
+VK_KHR_portability_enumeration         : extension revision 1
+VK_KHR_surface                         : extension revision 25
+VK_KHR_surface_protected_capabilities  : extension revision 1
+VK_LUNARG_direct_driver_loading        : extension revision 1
+VK_MVK_macos_surface                   : extension revision 3
+
+Instance Layers: count = 7
+--------------------------
+VK_LAYER_KHRONOS_profiles         Khronos Profiles layer                     1.4.328  version 1
+VK_LAYER_KHRONOS_shader_object    Khronos Shader object layer                1.4.328  version 1
+VK_LAYER_KHRONOS_synchronization2 Khronos Synchronization2 layer             1.4.328  version 1
+VK_LAYER_KHRONOS_validation       Khronos Validation Layer                   1.4.328  version 1
+VK_LAYER_LUNARG_api_dump          LunarG API dump layer                      1.4.328  version 2
+VK_LAYER_LUNARG_gfxreconstruct    GFXReconstruct Capture Layer Version 1.0.5 1.4.328  version 4194309
+VK_LAYER_LUNARG_screenshot        LunarG image capture layer                 1.4.328  version 1
+
+Devices:
+========
+GPU0:
+	apiVersion         = 1.4.323
+	driverVersion      = 0.2.2208
+	vendorID           = 0x106b
+	deviceID           = 0x1b000207
+	deviceType         = PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU
+	deviceName         = Apple M1 Pro
+	driverID           = DRIVER_ID_MOLTENVK
+	driverName         = MoltenVK
+	driverInfo         = 1.4.0
+	conformanceVersion = 1.4.2.0
+	deviceUUID         = 0000106b-1b00-0207-0000-000000000000
+	driverUUID         = 4d564b00-0000-28a0-1b00-020700000000
