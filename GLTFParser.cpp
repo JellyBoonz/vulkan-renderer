@@ -63,13 +63,17 @@ bool parseGLTF(const std::string& gltfFilename) {
     }
 
     try {
-        auto gltf{json::parse(file)};
+        const json gltf = json::parse(file);
 
-        const int positionAccessorIndex{gltf["meshes"][0]["primitives"][0]["attributes"]["POSITION"]};
+        const std::size_t positionAccessorIndex{
+            gltf["meshes"][std::size_t{0}]
+                ["primitives"][std::size_t{0}]
+                ["attributes"]["POSITION"]
+        };
         const auto& positionAccessor{gltf["accessors"][positionAccessorIndex]};
-        const int bufferViewIndex{positionAccessor["bufferView"]};
+        const std::size_t bufferViewIndex{positionAccessor["bufferView"]};
         const auto& bufferView{gltf["bufferViews"][bufferViewIndex]};
-        const int bufferIndex{bufferView["buffer"]};
+        const std::size_t bufferIndex{bufferView["buffer"]};
         const auto& buffer{gltf["buffers"][bufferIndex]};
 
         const std::size_t bufferSize{buffer["byteLength"].get<std::size_t>()};
