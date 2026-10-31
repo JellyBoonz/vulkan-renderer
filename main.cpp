@@ -1,10 +1,15 @@
 #include <algorithm>
 #include <cstdint>
 #include <cstring>
+#include <cmath>
 #include <fstream>
 #include <iostream>
 #include <stdexcept>
 #include <vector>
+
+#define GLM_FORCE_DEPTH_ZERO_TO_ONE
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
@@ -35,20 +40,21 @@ VkShaderModule shader(VkDevice device, const char* path) {
 int main() {
     GLFWwindow* window{};
     VkInstance instance{};
-        VkSurfaceKHR surface{};
-        VkDevice device{};
-        VkSwapchainKHR swapchain{};
+    VkSurfaceKHR surface{};
+    VkDevice device{};
+    VkSwapchainKHR swapchain{};
     VkPipelineLayout layout{};
-        VkPipeline pipeline{};
-        VkCommandPool commandPool{};
+    VkPipeline pipeline{};
+    VkCommandPool commandPool{};
     VkCommandBuffer commandBuffer{};
-        VkSemaphore imageAvailable{}, renderFinished{};
-        VkFence inFlight{};
+    VkSemaphore imageAvailable{}, renderFinished{};
+    VkFence inFlight{};
     std::vector<VkImageView> imageViews;
     try {
         if (!glfwInit()) throw std::runtime_error("Could not initialize GLFW");
         glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
-        window = glfwCreateWindow(800, 600, "Vulkan Triangle", nullptr, nullptr);
+        glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
+        window = glfwCreateWindow(800, 600, "Vulkan Cube", nullptr, nullptr);
         if (!window) throw std::runtime_error("Could not create GLFW window");
 
         std::uint32_t count{};
@@ -158,9 +164,9 @@ int main() {
         }
 
         // pipeline setup
-        const std::string shaderDir{TRIANGLE_SHADER_DIR};
-        VkShaderModule vert = shader(device, (shaderDir + "/triangle.vert.spv").c_str());
-        VkShaderModule frag = shader(device, (shaderDir + "/triangle.frag.spv").c_str());
+        const std::string shaderDir{CUBE_SHADER_DIR};
+        VkShaderModule vert = shader(device, (shaderDir + "/cube.vert.spv").c_str());
+        VkShaderModule frag = shader(device, (shaderDir + "/cube.frag.spv").c_str());
         VkPipelineShaderStageCreateInfo stages[2]{{VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO}, {VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO}};
         stages[0].stage = VK_SHADER_STAGE_VERTEX_BIT;
         stages[0].module = vert;
@@ -176,7 +182,7 @@ int main() {
         viewport.scissorCount = 1;
         VkPipelineRasterizationStateCreateInfo raster{VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO};
         raster.polygonMode = VK_POLYGON_MODE_FILL;
-        raster.cullMode = VK_CULL_MODE_NONE;
+        raster.cullMode = VK_CULL_MODE_BACK_BIT;
         raster.frontFace = VK_FRONT_FACE_COUNTER_CLOCKWISE;
         raster.lineWidth = 1.0F;
         VkPipelineMultisampleStateCreateInfo multisample{VK_STRUCTURE_TYPE_PIPELINE_MULTISAMPLE_STATE_CREATE_INFO};
@@ -191,6 +197,11 @@ int main() {
         dynamicState.dynamicStateCount = 2;
         dynamicState.pDynamicStates = states;
         VkPipelineLayoutCreateInfo layoutInfo{VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO};
+        VkPushConstantRange transformRange{};
+        transformRange.stageFlags = VK_SHADER_STAGE_VERTEX_BIT;
+        transformRange.size = sizeof(glm::mat4);
+        layoutInfo.pushConstantRangeCount = 1;
+        layoutInfo.pPushConstantRanges = &transformRange;
         vkCheck(vkCreatePipelineLayout(device, &layoutInfo, nullptr, &layout), "vkCreatePipelineLayout");
         VkPipelineRenderingCreateInfo rendering{VK_STRUCTURE_TYPE_PIPELINE_RENDERING_CREATE_INFO};
         rendering.colorAttachmentCount = 1;
@@ -228,9 +239,36 @@ int main() {
         vkCheck(vkCreateSemaphore(device, &semaphore, nullptr, &renderFinished), "vkCreateSemaphore");
         vkCheck(vkCreateFence(device, &fence, nullptr, &inFlight), "vkCreateFence");
 
+        float cameraYaw{0.7F};
+        float cameraPitch{0.4F};
+        float cameraDistance{3.0F};
+        double previousTime{glfwGetTime()};
+        std::cout << "Arrow keys: orbit camera. W/S: zoom.\n";
         while (!glfwWindowShouldClose(window)) {
             // Check for window events and wait for the previous drawing work to finish.
             glfwPollEvents();
+            const double now{glfwGetTime()};
+            const float deltaTime{static_cast<float>(std::min(now - previousTime, 0.1))};
+            previousTime = now;
+            if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) cameraYaw -= deltaTime;
+            if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) cameraYaw += deltaTime;
+            if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) cameraPitch += deltaTime;
+            if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS) cameraPitch -= deltaTime;
+            if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) cameraDistance -= deltaTime;
+            if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) cameraDistance += deltaTime;
+            cameraPitch = std::clamp(cameraPitch, -1.5F, 1.5F);
+            cameraDistance = std::clamp(cameraDistance, 1.5F, 10.0F);
+            const glm::vec3 cameraPosition{
+                cameraDistance * std::cos(cameraPitch) * std::sin(cameraYaw),
+                cameraDistance * std::sin(cameraPitch),
+                cameraDistance * std::cos(cameraPitch) * std::cos(cameraYaw)
+            };
+            const glm::mat4 model{1.0F};
+            const glm::mat4 view{glm::lookAt(cameraPosition, glm::vec3{0.0F}, glm::vec3{0.0F, 1.0F, 0.0F})};
+            glm::mat4 projection{glm::perspective(glm::radians(45.0F),
+                static_cast<float>(extent.width) / static_cast<float>(extent.height), 0.1F, 100.0F)};
+            projection[1][1] *= -1.0F;
+            const glm::mat4 mvp{projection * view * model};
             vkCheck(vkWaitForFences(device, 1, &inFlight, VK_TRUE, UINT64_MAX), "vkWaitForFences");
 
             // Get an image to draw into.
@@ -271,7 +309,8 @@ int main() {
             vkCmdSetViewport(commandBuffer, 0, 1, &vp);
             vkCmdSetScissor(commandBuffer, 0, 1, &scissor);
             vkCmdBindPipeline(commandBuffer, VK_PIPELINE_BIND_POINT_GRAPHICS, pipeline);
-            vkCmdDraw(commandBuffer, 3, 1, 0, 0);
+            vkCmdPushConstants(commandBuffer, layout, VK_SHADER_STAGE_VERTEX_BIT, 0, sizeof(mvp), &mvp);
+            vkCmdDraw(commandBuffer, 36, 1, 0, 0);
             vkCmdEndRendering(commandBuffer);
             barrier.oldLayout = VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL;
             barrier.newLayout = VK_IMAGE_LAYOUT_PRESENT_SRC_KHR;
