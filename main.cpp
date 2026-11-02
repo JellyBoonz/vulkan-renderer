@@ -14,6 +14,8 @@
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 
+#include "GLTFParser.h"
+
 namespace {
 void vkCheck(VkResult result, const char* call) {
     if (result != VK_SUCCESS) throw std::runtime_error(std::string(call) + " failed: " + std::to_string(result));
@@ -37,7 +39,18 @@ VkShaderModule shader(VkDevice device, const char* path) {
 }
 }
 
-int main() {
+int main(int argc, char* argv[]) {
+    if (argc > 1) {
+        if (argc != 3 || std::string{argv[1]} != "--inspect-gltf") {
+            std::cerr << "Usage: " << argv[0] << " [--inspect-gltf path.gltf|path.glb]\n";
+            return 1;
+        }
+        tinygltf::Model model{};
+        if (!loadGLTF(argv[2], model)) return 1;
+        std::cout << "Loaded " << argv[2] << ": " << model.meshes.size() << " meshes, "
+                  << model.accessors.size() << " accessors, " << model.buffers.size() << " buffers.\n";
+        return 0;
+    }
     GLFWwindow* window{};
     VkInstance instance{};
     VkSurfaceKHR surface{};

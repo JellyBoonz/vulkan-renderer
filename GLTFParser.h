@@ -1,5 +1,6 @@
 #pragma once
 
 #include <string>
+#include <tiny_gltf.h>
 
-bool parseGLTF(const std::string& gltfFilename);
+bool loadGLTF(const std::string& filename, tinygltf::Model& model);
